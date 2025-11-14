@@ -1,0 +1,98 @@
+body {
+  background: #190027;
+  color: #f5f5f5;
+  font-family: sans-serif;
+}
+
+p, li {
+  color: #e0e0e0;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffd86b;
+}
+
+h2 {
+  color: #ffd86b;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h3 {
+  color: #f2c94c;
+}
+
+.featured article h3::after {
+  content: " :D";
+  font-size: 0.8em;
+  color: #ffd86b;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 10px;
+  padding: 10px;
+}
+
+article {
+  background: #320046;
+  padding: 10px;
+  border: 1px solid #ffd86b;
+  margin-bottom: 0px;
+}
+
+article:last-of-type {
+  border-bottom: none;
+}
+
+.featured {
+  background: #320040;
+  border: 3px solid #ffd86b;
+}
+
+.featured article > p:first-of-type {
+  font-weight: bold;
+}
+
+.featured article > p:nth-of-type(2) {
+  color: #ffd86b;
+}
+
+article a {
+  color: #ffcc66;
+  text-decoration: underline;
+}
+
+article a:hover {
+  color: #ffe080;
+}
+
+#main-menu {
+  background: #320046;
+  padding: 10px;
+  border: 3px solid #ffd86b;
+}
+
+nav a {
+  color: #6bbaff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+nav a:hover {
+  color: #aad4ff;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#main-menu li .nested-list li {
+  color: #ffd86b;
+  font-size: 14px;
+}
+
+
